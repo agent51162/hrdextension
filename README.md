@@ -8,11 +8,11 @@ To set up the extension:
 3) select this parent folder 
 
 #### manifest.json 
-This file is for setting up the extension with chrome and it handles the extension metadata, file structure, permissions, behaviors, applicable urls, and icons. The information for this file can be found here: 
+This file is for setting up the extension with chrome and it handles things like the extension metadata, file structure, permissions, behaviors, applicable urls, and icons. The information for this file can be found here: 
 https://developer.chrome.com/extensions/manifest
 
 #### user_alert.js
-This file contains the actions made when the urls matched from the manifest are visite. Customize this to trigger on the pages you want it to run. This format has a regex feel to it and can be seen here: https://developer.chrome.com/extensions/match_patterns
+This is an example file that currently contains the actions made when the urls matched from the manifest are visited. For example, you can customize the behavior that will trigger on the pages you want it to run. The matching patterns for urls have a regex feel to it and can be seen here: https://developer.chrome.com/extensions/match_patterns
 
 Currently used is <all_urls> which is just a macro for every url. 
 

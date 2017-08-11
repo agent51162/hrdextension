@@ -16,4 +16,4 @@ toastr.options = {
   "hideMethod": "fadeOut"
 }
 
-toastr.error("Warning: You are in PRODUCTION. Don't be a victim.");
+toastr.warning("You are in LOAD TEST. Don't go deleting too much.");

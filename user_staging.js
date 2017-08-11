@@ -16,4 +16,4 @@ toastr.options = {
   "hideMethod": "fadeOut"
 }
 
-toastr.error("Warning: You are in PRODUCTION. Don't be a victim.");
+toastr.success("You are in STAGING. Fire Away!");

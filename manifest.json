@@ -6,9 +6,19 @@
 	"author" : "JB",
 	"content_scripts": [
 		{
-			"matches": ["<all_urls>"],
+			"matches": ["https://bestbuy.timetrade.com/*"],
 			"css": ["toastr.min.css"],
-			"js": ["jquery.min.js","toastr.min.js","user_alert.js"]
+			"js": ["jquery.min.js","toastr.min.js","user_production.js"]
+		},
+		{
+			"matches": ["https://bestbuystagingtesa.timetradesystems.com/*"],
+			"css": ["toastr.min.css"],
+			"js": ["jquery.min.js","toastr.min.js","user_staging.js"]
+		},
+		{
+			"matches": ["https://bbuyltadmin.timetradesystems.com/*"],
+			"css": ["toastr.min.css"],
+			"js": ["jquery.min.js","toastr.min.js","user_loadtest.js"]
 		}
 	]
 }

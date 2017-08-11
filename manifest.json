@@ -1,0 +1,14 @@
+{
+	"manifest_version" : 2,
+	"name" : "I practically invented this",
+	"version" : "0.1",
+	"description" : "This is a tool for Harrison",
+	"author" : "JB",
+	"content_scripts": [
+		{
+			"matches": ["<all_urls>"],
+			"css": ["toastr.min.css"],
+			"js": ["jquery.min.js","toastr.min.js","user_alert.js"]
+		}
+	]
+}
